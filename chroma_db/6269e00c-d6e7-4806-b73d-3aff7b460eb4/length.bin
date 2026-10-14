@@ -1,0 +1,8 @@
+ured Outputs guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+      Setting to `{ "type": "json_object" }` enables JSON mode, which ensures the
+      message the model generates is valid JSON.
+
+      **Important:** when using JSON mode, you **must** also instruct the model to
+      produce JSON yourself via a system or user message. Without this, the model may
+      generate an
